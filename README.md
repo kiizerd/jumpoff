@@ -1,4 +1,4 @@
-A simple starting point for Ruby on Rails 7 applications..
+A simple starting point for Ruby on Rails 7 applications..  
 Slight minimalized version of https://github.com/justalever/kickoff_tailwind
 
 ### Included gems
@@ -10,9 +10,9 @@ Slight minimalized version of https://github.com/justalever/kickoff_tailwind
 
 ### Tailwind CSS by default
 
-Includes setup for PostCSS to allow use of advanced TailwindCSS directives like `@layer` and `@apply`.
+Includes setup for PostCSS to allow use of advanced TailwindCSS directives like `@layer` and `@apply`.  
 Does this by adding `postcss-flexbugs-fixes postcss-import postcss-nested postcss-preset-env`  
-npm packages and a `postcss.config.js` configuration file, and a `--postcss` flag to the  
+npm packages a `postcss.config.js` configuration file, and a `--postcss` flag to the  
 package.json build:css script
 
 ## How it works
