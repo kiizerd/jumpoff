@@ -1,6 +1,5 @@
-![Kickoff Tailwind](https://f001.backblazeb2.com/file/webcrunch/kt.jpg)
-
-A free and simple starting point for Ruby on Rails 7 applications.. This particular template utilizes [Tailwind CSS](https://tailwindcss.com/), a utility-first CSS framework for rapid UI development.
+A simple starting point for Ruby on Rails 7 applications..
+Slight minimalized version of https://github.com/justalever/kickoff_tailwind
 
 ### Included gems
 
@@ -8,13 +7,13 @@ A free and simple starting point for Ruby on Rails 7 applications.. This particu
 - [friendly_id](https://github.com/norman/friendly_id)
 - [sidekiq](https://github.com/mperham/sidekiq)
 - [name_of_person](https://github.com/basecamp/name_of_person)
-- [pay-rails](https://github.com/pay-rails/pay)
-- [stripe](https://github.com/stripe/stripe-ruby)
-- [css-bundling](https://github.com/rails/cssbundling-rails) - now part of Rails 7
 
 ### Tailwind CSS by default
 
-This template comes with Tailwind CSS preconfigured for use. To make use of tools like `@apply` and `@layer` a more sophisticated setup is required likely using PostCSS and JavaScript bundling. There is a [javascript-bundling](https://github.com/rails/jsbundling-rails) gem to help with this if you require it.
+Includes setup for PostCSS to allow use of advanced TailwindCSS directives like `@layer` and `@apply`.
+Does this by adding `postcss-flexbugs-fixes postcss-import postcss-nested postcss-preset-env`  
+npm packages and a `postcss.config.js` configuration file, and a `--postcss` flag to the  
+package.json build:css script
 
 ## How it works
 
